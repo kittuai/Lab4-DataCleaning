@@ -1,3 +1,4 @@
+
 # Lab 4 – Data Cleaning and Outlier Detection
 
 ## Overview
@@ -22,20 +23,38 @@ The notebook demonstrates:
 
 ## Setup Instructions
 
-## Setup Instructions
-
-Follow the steps below to set up and run the notebook:
+Follow the steps below to clone and run the notebook in a virtual environment.
 
 ```bash
 git clone https://github.com/kittuai/Lab4-DataCleaning.git
+```
 
-
+```bash
 cd Lab4-DataCleaning
+```
 
+```bash
+python -m venv venv
+```
+
+```bash
+venv\Scripts\activate   # On Windows
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+jupyter notebook week5Lab.ipynb
+```
+
+> Note: If you're on macOS/Linux, use `source venv/bin/activate` instead of the Windows command above.
 
 ## Replicability
 
-The notebook was tested in a clean Python 3.x environment using only the packages listed in `requirements.txt`. All cells were executed in order and ran without errors, confirming full reproducibility.
+The notebook was tested in a clean Python 3.x environment using only the packages listed in `requirements.txt`.  
+All cells were executed in order and ran without errors, confirming full reproducibility.
 
 ## Topics Covered
 
@@ -45,8 +64,10 @@ The notebook was tested in a clean Python 3.x environment using only the package
 - Visualizations using `seaborn` and `matplotlib`
 - Structured markdown documentation for clarity and code readability
 
+
+
 ## Author
 
 Krishna Reddy  
 Conestoga College  
-GitHub: https://github.com/kittuai
+GitHub: [https://github.com/kittuai](https://github.com/kittuai)
