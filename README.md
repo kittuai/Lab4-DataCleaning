@@ -50,9 +50,8 @@ python -m venv venv
 ```
 
 - On Windows:
-
 ```bash
-venv\Scriptsctivate
+venv\Scripts\ctivate
 ```
 
 - On macOS/Linux:
