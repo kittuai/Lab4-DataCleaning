@@ -24,19 +24,14 @@ The notebook demonstrates:
 
 ## Setup Instructions
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/kittuai/Lab4-DataCleaning.git
-   cd Lab4-DataCleaning
-   python -m venv venv
-    venv\Scripts\activate              # On Windows
-   pip install -r requirements.txt
-    jupyter notebook week5Lab.ipynb
+Follow the steps below to set up and run the notebook:
+
+```bash
+git clone https://github.com/kittuai/Lab4-DataCleaning.git
 
 
-3. Install required packages:
+cd Lab4-DataCleaning
 
-4. Launch the notebook:
 
 ## Replicability
 
